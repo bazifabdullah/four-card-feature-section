@@ -89,3 +89,32 @@ header p {
 .singular-card p {
     color: var(--grayishBlue);
 }
+
+/* Media Queries */
+
+@media only screen and (min-width: 1000px) {
+    header {
+        width: 600px;
+        margin: 60px auto;
+        font-size: 15px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .card1 {
+        grid-column: 1;
+    }
+
+    .card2-3 {
+        grid-column: 2;
+    }
+
+    .card4{
+        grid-column: 3;
+    }
+}
