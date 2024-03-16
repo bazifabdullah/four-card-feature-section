@@ -65,6 +65,17 @@ header p {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
+.singular-card h2 {
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.singular-card p {
+    font-size: 14px;
+}
+
 .card1 {
     border-top: 3px solid var(--Cyan);
 }
