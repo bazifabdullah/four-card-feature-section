@@ -22,7 +22,8 @@ body {
     background-color: var(--veryLightGray);
     line-height: 1.5;
     color: var(--veryDarkBlue);
-    margin-bottom: 40px;
+    max-width: 1440px;
+    margin: 0 auto 40px;
 }
 
 /* Header Start */
